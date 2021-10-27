@@ -6,7 +6,7 @@ jest jak największa. Należy zwrócić najmniejszą wagę krawędzi na znalezio
 Implementacja z wykorzystaniem algorytmu a’la Dijkstra.
 """
 import os
-from dimacs import *
+from Additional_functions.dimacs import *
 from queue import PriorityQueue
 from math import inf
 

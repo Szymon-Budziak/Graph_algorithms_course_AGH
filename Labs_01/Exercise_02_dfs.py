@@ -7,7 +7,7 @@ Implementacja z wykorzystaniem wyszukiwania binarnego i przegląd grafu metodami
 """
 import os
 from sys import setrecursionlimit
-from dimacs import *
+from Additional_functions.dimacs import *
 
 setrecursionlimit(20000)
 

@@ -6,7 +6,7 @@ jest jak największa. Należy zwrócić najmniejszą wagę krawędzi na znalezio
 Implementacja z wykorzystaniem struktury find-union.
 """
 import os
-from dimacs import *
+from Additional_functions.dimacs import *
 from math import inf
 
 
