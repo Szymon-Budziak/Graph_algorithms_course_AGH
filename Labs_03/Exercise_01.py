@@ -78,7 +78,8 @@ for i in directory:
     if i != "grid100x100":
         file_path = "Graphs/" + i
         result = stoer_wagner_algorithm(file_path)
-        if result == int(readSolution(file_path)):
+        solution = int(readSolution(file_path))
+        if result == solution:
             print(f"OK result {result} for {i}")
         else:
-            print(f"WRONG result {result} for {i}")
+            print(f"WRONG result {result} for {i} answer is {solution}")
